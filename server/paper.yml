@@ -23,6 +23,7 @@ warnWhenSettingExcessiveVelocity: true
 world-settings:
   default:
     verbose: true
+    keep-spawn-loaded: true
     generator-settings:
       canyon: true
       caves: true
@@ -35,9 +36,14 @@ world-settings:
       village: true
       flat-bedrock: false
     allow-block-location-tab-completion: true
-    optimize-explosions: false
-    mob-spawner-tick-rate: 1
-    cache-chunk-maps: false
+    portal-search-radius: 128
+    disable-thunder: false
+    disable-ice-and-snow: false
+    tick-next-tick-list-cap: 10000
+    tick-next-tick-list-cap-ignores-redstone: false
+    falling-blocks-collide-with-signs: false
+    disable-mood-sounds: false
+    use-async-lighting: false
     tnt-explosion-volume: 4.0
     squid-spawn-height:
       minimum: 45.0
@@ -55,13 +61,11 @@ world-settings:
       soft: 32
       hard: 128
     falling-block-height-nerf: 0
+    disable-teleportation-suffocation-check: false
     remove-unloaded:
       enderpearls: true
       tnt-entities: true
       falling-blocks: true
-    remove-invalid-mob-spawner-tile-entities: true
-    player-blocking-damage-multiplier: 0.5
-    disable-teleportation-suffocation-check: false
     game-mechanics:
       boats-drop-boats: false
       disable-player-crits: false
@@ -72,6 +76,11 @@ world-settings:
       enderpearls: false
       tnt-entities: false
       falling-blocks: false
+    remove-invalid-mob-spawner-tile-entities: true
+    optimize-explosions: false
+    mob-spawner-tick-rate: 1
+    cache-chunk-maps: false
+    player-blocking-damage-multiplier: 0.5
     fast-drain:
       lava: false
       water: false
@@ -86,12 +95,3 @@ world-settings:
     all-chunks-are-slime-chunks: false
     allow-undead-horse-leashing: false
     container-update-tick-rate: 1
-    keep-spawn-loaded: true
-    falling-blocks-collide-with-signs: false
-    disable-mood-sounds: false
-    use-async-lighting: false
-    portal-search-radius: 128
-    disable-thunder: false
-    disable-ice-and-snow: false
-    tick-next-tick-list-cap: 10000
-    tick-next-tick-list-cap-ignores-redstone: false
