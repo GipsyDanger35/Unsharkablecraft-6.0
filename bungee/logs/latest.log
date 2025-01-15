@@ -1,0 +1,67 @@
+[15:52:31] [main/INFO]: Using mbed TLS based native cipher.
+[15:52:31] [main/INFO]: Using zlib based native compressor.
+[15:52:31] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579
+[15:52:31] [main/WARN]: Waterfall has reached end of life and is no longer maintained. We recommend you transition to Velocity (https://papermc.io/software/velocity). For more information, see the announcement (https://forums.papermc.io/threads/1088/).
+[15:52:31] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[15:52:31] [main/INFO]: Epoll is working, utilising it!
+[15:52:31] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[15:52:31] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[15:52:31] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[15:52:31] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[15:52:31] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[15:52:31] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[15:52:31] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[15:52:31] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[15:52:31] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[15:52:31] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[15:52:31] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[15:52:31] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[15:52:31] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[15:52:31] [main/WARN]: :>  
+[15:52:31] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[15:52:31] [main/WARN]: :>  
+[15:52:31] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[15:52:31] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[15:52:31] [main/WARN]: :>  apart from the versions listed below:
+[15:52:31] [main/WARN]: :>  
+[15:52:31] [main/WARN]: :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:acb85e3:1871
+[15:52:31] [main/WARN]: :>  - Waterfall: 1.21-R0.1-SNAPSHOT:de8345a:579
+[15:52:31] [main/WARN]: :>  
+[15:52:31] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[15:52:31] [main/WARN]: :>  
+[15:52:31] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[15:52:31] [main/WARN]: :>  
+[15:52:31] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[15:52:31] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[15:52:32] [Skin Download Thread #0/ERROR] [EaglercraftXBungee]: Recieved code 403 while looking up UUID of lax1dude
+[15:52:32] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.3.1 by lax1dude
+[15:52:32] [main/WARN]: Forced host server pvp is not defined
+[15:52:32] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[15:52:32] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[15:52:32] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[15:52:32] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[15:52:32] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[15:52:32] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[15:52:32] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[15:52:32] [Netty Boss IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[15:52:32] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[15:52:32] [main/INFO] [EaglercraftXBungee]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[15:52:32] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.3.1 by lax1dude
+[15:52:32] [Netty Boss IO Thread #1/INFO]: Listening on /127.0.0.1:25577
+[15:53:01] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37626]: Connected via websocket
+[15:53:01] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37626]: Origin header is null
+[15:53:01] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37626]: Logged in as 'Unsharkablegamin'
+[15:53:01] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:37626|Unsharkablegamin] -> UpstreamBridge has connected
+[15:53:01] [Netty Worker IO Thread #0/INFO]: [Unsharkablegamin|/[0:0:0:0:0:0:0:1%0]:37626] <-> ServerConnector [lobby] has connected
+[16:05:53] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:37626|Unsharkablegamin] -> UpstreamBridge has disconnected
+[16:05:53] [Netty Worker IO Thread #0/INFO]: [Unsharkablegamin] disconnected with: Proxy lost connection to server.
+[16:05:53] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:37626|Unsharkablegamin] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:06:00] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41260]: Connected via websocket
+[16:06:00] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41260]: Origin header is null
+[16:06:00] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41260]: Logged in as 'Unsharkablegamin'
+[16:06:00] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:41260|Unsharkablegamin] -> UpstreamBridge has connected
+[16:06:00] [Netty Worker IO Thread #1/INFO]: [Unsharkablegamin|/[0:0:0:0:0:0:0:1%0]:41260] <-> ServerConnector [lobby] has connected
+[16:10:48] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:41260|Unsharkablegamin] -> UpstreamBridge has disconnected
+[16:10:48] [Netty Worker IO Thread #1/INFO]: [Unsharkablegamin] disconnected with: Proxy lost connection to server.
+[16:10:48] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:41260|Unsharkablegamin] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:10:49] [Netty Worker IO Thread #2/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/Unsharkablecraft-6.0/bungee/server-icon.png
